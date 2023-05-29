@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+body{
+  background-color: #f7f7f7;
+}
+
+.card-shadow{
+  box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07) !important;
+  transition: all 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+.containerise{
+  margin: auto;
+  width: 80%;
+  padding-bottom: 10%;
+}
+
+.post{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 2px;
+}
+
+.post h1{
+  font-size: 1.5rem;
+  margin: 5px 0px 5px 0px;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-container > div{
+  width: 32%;
+  border-radius: 15px;
+  background: white;
+}
+
+.cards-container img{
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  object-fit: cover;
+}
+
+.browse-posts{
+  color: black;
+  border: solid 1px #e2e3e9;
+  border-radius: 40px;
+  padding: 25px 40px;
+  margin-bottom: 5%;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.about-post{
+  padding: 8%;
+}
+
+.about-post > h2{
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.post-excerpt{
+  color: #8c8c95;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.p-5{
+  padding-bottom: 5%;
+}
+
+.p-8{
+  padding-bottom: 8%;
+}
+
+.p-10{
+  padding: 10%;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.jc-space-between{
+  justify-content: space-between;
+}
+
+.d-flex a, p{
+  color: black;
+  font-weight: bold;
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-60{
+  width: 60%;
+}
+
+.color-gray{
+  color: #8c8c95;
+  font-size: 0.97rem;
+  line-height: 1.5;
+}
+
+.mb-1p5{
+  margin-bottom: 1.5%;
+}
+
+.mb-5{
+  margin-bottom: 5%;
+}
+
+.color-white{
+  color: white;
+}
